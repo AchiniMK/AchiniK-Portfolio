@@ -38,9 +38,10 @@ const HeroSection = () => {
             <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">I'm a web developer creating sleek, intuitive, and dynamic digital experiences.</p>
             <motion.div className="flex flex-wrap items-center justify-center gap-4 mt-4 sm:justify-start">
             {/* Hire Me Button */}
-            <button className="px-6 py-3 rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
-            Hire Me
-            </button>
+            <button
+            className="px-6 py-3 rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
+            onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}>
+            Hire Me </button>
 
             {/* Download CV Button */}
             <button className="px-[2px] py-[2px] rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
