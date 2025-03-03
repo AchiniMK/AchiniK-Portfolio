@@ -2,7 +2,6 @@
 import { useState, useTransition } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
-import Image from "next/image";
 
 
 

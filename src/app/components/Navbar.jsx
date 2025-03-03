@@ -33,7 +33,8 @@ const Navbar = () => {
             width={120}
             height={120}
             className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 transition-all duration-300"/>
-        </Link>
+            </Link>
+            
         <div className="mobile-menu block md:hidden">
             {!navbarOpen ? (
                     <button 
