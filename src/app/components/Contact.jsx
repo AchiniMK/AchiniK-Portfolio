@@ -21,7 +21,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt className="text-pink-400" />, 
     title: "Address",
-    description: <span className="text-[#ADB7BE]">'Sirimathiy', Sanadaganagama, Weligepola, Balangoda</span>,
+    description: <span className="text-[#ADB7BE]">'Sirimathiya', Sandaganagama, Weligepola, Balangoda</span>,
   },
 ];
 
