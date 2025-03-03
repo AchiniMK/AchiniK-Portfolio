@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Velvet Bean | Coffee Shop",
+  title: "Achini Karunarathna | Portfolio",
   description: "Freshly roasted coffee beans for the best experience.",
 };
 
