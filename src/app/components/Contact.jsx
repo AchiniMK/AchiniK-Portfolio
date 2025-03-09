@@ -98,7 +98,6 @@ Looking forward to your response!`;
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
                     <SelectItem value="Web Development">Web Development</SelectItem>
-                    <SelectItem value="UX/UI Design">UX/UI Design</SelectItem>
                     <SelectItem value="Logo Design">Logo Design</SelectItem>
                   </SelectGroup>
                 </SelectContent>
