@@ -42,10 +42,15 @@ const HeroSection = () => {
             Hire Me </button>
 
             {/* Download CV Button */}
-            <button className="px-[2px] py-[2px] rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
+            <a 
+            href="/images/Achini Karunarathna _CV.pdf"// Replace with the actual path to your CV
+            download="Achini Karunarathna _CV.pdf" 
+            className="px-[2px] py-[2px] rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white"
+            >
             <span className="bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 flex items-center gap-2">
-            Download CV <FiDownload className="text-xl" /></span>
-            </button>
+            Download CV <FiDownload className="text-xl" />
+            </span>
+            </a>
 
             {/* Social Icons (GitHub & LinkedIn) */}
             <Social 

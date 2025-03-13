@@ -44,7 +44,7 @@ const projectsData = [
     {
       id: 5,
       title: "To-Do List Application",
-      description: "A Simple HTml Application",
+      description: "A Simple HTML Application",
       image: "/images/projects/5.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/AchiniMK/To-Do-List-App",
